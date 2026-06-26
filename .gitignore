@@ -10,6 +10,15 @@
 !.yarn/releases
 !.yarn/versions
 
+# Python-generated files
+__pycache__/
+*.py[oc]
+*.pyc
+build/
+dist/
+wheels/
+*.egg-info
+
 # testing
 /coverage
 
@@ -32,6 +41,7 @@ yarn-error.log*
 
 # env files (can opt-in for committing if needed)
 .env*
+.venv
 
 # vercel
 .vercel
